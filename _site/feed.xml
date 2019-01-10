@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AokiAbbott</title>
+    <description>Just A Blog</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Thu, 10 Jan 2019 09:39:22 +0800</pubDate>
+    <lastBuildDate>Thu, 10 Jan 2019 09:39:22 +0800</lastBuildDate>
+    <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Jekyll Blog搭建日志（3）</title>
+        <description>&lt;p&gt;&lt;a href=&quot;https://yizibi.github.io&quot;&gt;一支笔&lt;/a&gt;的个人博客除评论系统之外，还在原基础之上添加了很多功能，先fork再说。只是其现使用的代码与之前的日志脱节。
+花了些功夫，另评论模块有待测试。&lt;/p&gt;
+
+&lt;h3 id=&quot;以上&quot;&gt;以上&lt;/h3&gt;
+
+</description>
+        <pubDate>Wed, 09 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/09/add-comment/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/09/add-comment/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>技术日志</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll Blog搭建日志（2）</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;咕咕咕。。。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;准备添加博客评论系统&lt;/p&gt;
+
+    &lt;p&gt;已找到相关文档&lt;a href=&quot;https://www.jianshu.com/p/4ac4ec6c45e6&quot;&gt;Mac 一步一步教你在Jekyll博客添加评论系统&lt;/a&gt;，中提到评论系统不是关闭就是被墙，也
+  是惨，唯有&lt;a href=&quot;https://gitalk.github.io/&quot;&gt;gitalk&lt;/a&gt;尚有实现的可能。但今天还要摸鱼，所以。。。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;又查看了原作者的&lt;code class=&quot;highlighter-rouge&quot;&gt;about.html&lt;/code&gt;页面，含有&lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;代码（确切的说应该是&lt;code class=&quot;highlighter-rouge&quot;&gt;Jekyll&lt;/code&gt;使用了该框架）。&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;OK&lt;/li&gt;
+      &lt;li&gt;打开我的浏览器&lt;/li&gt;
+      &lt;li&gt;搜索输入&lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;…&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;以上&quot;&gt;以上&lt;/h3&gt;
+
+</description>
+        <pubDate>Tue, 08 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/08/nothing/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/08/nothing/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>技术日志</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Jekyll Blog搭建日志（1）</title>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Holy Shit!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;牢骚在前&quot;&gt;牢骚在前&lt;/h3&gt;
+
+&lt;p&gt;在经历了一系列反复的调试之后，自己的博客终于初见端倪，尽管难度不大，但还是踩了很多的坑（十分的烦躁），所以特此记录，以效后者。&lt;/p&gt;
+
+&lt;h3 id=&quot;正题&quot;&gt;正题&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;关于Jekyll的配置&lt;/p&gt;
+
+    &lt;p&gt;Jekyll是依赖于
+  Ruby的生成静态Blog页面的工具，那自然需要进行&lt;strong&gt;Ruby&lt;/strong&gt;的环境配置。具体步骤不再啰嗦，值得注意的是由于大中华局域网的问题，
+  &lt;code class=&quot;highlighter-rouge&quot;&gt;gem source&lt;/code&gt;的地址应改为&lt;em&gt;https://gems.ruby-china.com&lt;/em&gt;而原来的淘宝镜像以及&lt;em&gt;https://gems.ruby-china.org&lt;/em&gt;已经失效。
+  当然目录下的&lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;的&lt;strong&gt;source&lt;/strong&gt;属性也应一同修改为上述地址。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;关于Github的托管&lt;/p&gt;
+
+    &lt;p&gt;可能还是由于网络的原因，Github Page的部署有些延迟，起初我一度认为页面的生成有问题（无CSS装饰），但经过测试页面对于内容的修改也没有响应
+  。过了一段时间又自动回复正常（火大）。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;关于yml的配置&lt;/p&gt;
+
+    &lt;p&gt;yml的配置按照说明改写，另外适应适应&lt;code class=&quot;highlighter-rouge&quot;&gt;md&lt;/code&gt;的书写格式即可。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;后记&quot;&gt;后记&lt;/h3&gt;
+
+&lt;p&gt;下一步考虑细节上的装修问题，以及无效链接的清理工作，再看看有什么有趣的插件，如有可能进行域名绑定。回顾搭建过程，实在没有多少技术含量，
+与其增强了代码能力，倒不如说对文档的检索能力有所帮助，无论是git命令，github平台，ruby环境，Jekyll建立了初步的了解，为以后技术的辐射
+和延伸打下基础。
+最后还是应当感谢本博客主题的作者&lt;a href=&quot;https://github.com/Huxpro/huxblog-boilerplate&quot;&gt;Hux&lt;/a&gt;详尽的配置说明，
+以及实际&lt;code class=&quot;highlighter-rouge&quot;&gt;fork&lt;/code&gt;的对象&lt;a href=&quot;https://github.com/cirno380a/cirno380a.github.io&quot;&gt;cirno380a&lt;/a&gt;的修改。&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;另附可能需要的文档 &lt;a href=&quot;https://www.jekyll.com.cn/&quot;&gt;jekyll文档&lt;/a&gt;，
+&lt;a href=&quot;https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown&quot;&gt;Markdown语法手册&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+</description>
+        <pubDate>Mon, 07 Jan 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/01/07/the-beginer/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/01/07/the-beginer/</guid>
+        
+        <category>Jekyll</category>
+        
+        <category>技术日志</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

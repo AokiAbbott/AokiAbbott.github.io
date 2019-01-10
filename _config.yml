@@ -1,21 +1,21 @@
 # Site settings
-title: CRH380A-2722
-SEOTitle: CRH380A-2722 | 一个热爱公共交通的精神软工人
+title: AokiAbbott
+SEOTitle: AokiAbbott | 为什么不问下神奇的海螺呢?
 header-img: img/bg-default.jpg
-email: zs6096@gmail.com
-description: ""
+email: libodeyouxiang@163.com
+description: "Just A Blog"
 keyword: ""
-url: "https://cirno380a.moe"              # your host, for absolute URL
+url: ""              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
-RSS: true
-weibo_username:     zsQyBus
-zhihu_username:     false
-github_username:    cirno380a
-twitter_username:   cirno380a
+RSS: false
+weibo_username:     false
+zhihu_username:     pan-guo-9
+github_username:    AokiAbbott
+twitter_username:   false
 facebook_username:  false
 
 
@@ -55,6 +55,16 @@ duoshuo_username: false
 duoshuo_share: false                     # set to false if you want to use Comment without Sharing
 
 
+# Netease settings
+netease_comment: false
+
+gitalk:
+    enable: true
+    owner: AokiAbbott
+    repo: AokiAbbott.github.io
+    clientID: 0612b542fa5d8eba7cc8
+    clientSecret: 126fd23f1af0454304fa0e66ab02e6dd5fe88f83
+    admin: AokiAbbott
 
 
 # Analytics settings
@@ -68,14 +78,14 @@ ga_domain: false
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "An amateur public transportation photographer. A PHP Beginner. Plus Ultra!!"
+sidebar-about-description:  "黄色多孔方块。"
 sidebar-avatar: /img/meta/avatar.jpg     # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
 # Featured Tags
-featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-tags: true                    # whether or not using Feature-Tags
+featured-condition-size: 1             # A tag will be featured if the size of it is more than this condition value
 
 
 
