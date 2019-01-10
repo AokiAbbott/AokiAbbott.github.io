@@ -61,9 +61,9 @@ netease_comment: false
 gitalk:
     enable: true
     owner: AokiAbbott
-    repo: aokiabbott.github.io
-    clientID: 0612b542fa5d8eba7cc8
-    clientSecret: 126fd23f1af0454304fa0e66ab02e6dd5fe88f83
+    repo: AokiAbbott.github.io
+    clientID: 6dc3545d4762e27489ff
+    clientSecret: 0dc2828d477416b13eca7740cd0f508f648a69c9
     admin: AokiAbbott
 
 
