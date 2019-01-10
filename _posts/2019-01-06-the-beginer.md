@@ -5,6 +5,7 @@ subtitle:   "踩坑不止"
 date:       2019-01-07
 author:     "AokiAbbott"
 header-img: "img/bg-default.jpg"
+catalog:	true
 tags:
    - Jekyll 
    - 技术日志
