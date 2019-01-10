@@ -1,6 +1,6 @@
 ﻿---
 layout:     post
-title:      "Jekyll Blog搭建日志（2）"
+title:      "Jekyll Blog搭建日志（4）"
 subtitle:   "摸鱼，摸鱼"
 date:       2019-01-08
 author:     "AokiAbbott"
