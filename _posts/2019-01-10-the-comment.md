@@ -2,7 +2,7 @@
 layout:     post
 title:      "Jekyll Blog搭建日志（4）"
 subtitle:   "摸鱼，摸鱼"
-date:       2019-01-08
+date:       2019-01-10
 author:     "AokiAbbott"
 header-img: "img/post-bg-2015.jpg"
 tags:
